@@ -1,15 +1,134 @@
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.table {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.computer {
-  position: absolute;
-  top: 30px;
-  left: 70px;
-}
+	.container {
+		position: relative;
+		width: 763.75px;
+		height: 516.75px;
+		margin:0 auto;
+	}
+	.table {
+		width: 763.75px;
+		height: 516.75px;
+	}
+	.computer {
+		position: absolute;
+		top: 45px;
+		left: 260px;
+		height: 231.25px;
+		width: 241px;
+	}
+	.computer:hover {
+		opacity: 0.3;
+	}
+	.notepad {
+		position: absolute;
+		top: 120px;
+		left: 500px;
+	}
+	.notepad img {
+		height: 160.25px;
+		width: 131px;
+	}
+	.notepad .notepad_hover {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.notepad:hover .notepad_hover {
+		display: block;
+	}
+	.passport {
+		position: absolute;
+		top: 120px;
+		left: 135px;
+		height: 151.75px;
+		width: 88.75px;
+	}
+	.passport img {
+		height: 151.75px;
+		width: 88.75px;
+	}
+	.passport .passport_hover {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.passport:hover .passport_hover {
+		display: block;
+	}
+	.book {
+		position: absolute;
+		top: 275px;
+		left: 80px;
+		height: 178.75px;
+		width: 193.25px;
+	}
+	.book img {
+		height: 178.75px;
+		width: 193.25px;
+	}
+	.book .book_hover {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.book:hover .book_hover {
+		display: block;
+	}
+	.food {
+		position: absolute;
+		top: 290px;
+		left: 295px;
+		height: 159.75px;
+		width: 164.75px;
+	}
+	.food img {
+		height: 159.75px;
+		width: 164.75px;
+	}
+	.food .food_hover {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.food:hover .food_hover {
+		display: block;
+	}
+	.camera {
+		position: absolute;
+		top: 300px;
+		left: 485px;
+	}
+	.camera img {
+		height: 132.5px;
+		width: 158.5px;
+	}
+	.camera .camera_hover {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.camera:hover .camera_hover {
+		display: block;
+	}
+	.headphones {
+		position: absolute;
+		top: 75px;
+		left: 35px;
+	}
+	.headphones img {
+		height: 268px;
+		width: 253.25px;
+	}
+	.headphones .headphones_hover {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.headphones:hover .headphones_hover {
+		display: block;
+	}		
