@@ -7,6 +7,7 @@
 	.table {
 		width: 763.75px;
 		height: 516.75px;
+		z-index: -2;
 	}
 	.computer {
 		position: absolute;
@@ -42,6 +43,7 @@
 		left: 135px;
 		height: 151.75px;
 		width: 88.75px;
+		z-index: 0;
 	}
 	.passport img {
 		height: 151.75px;
@@ -131,4 +133,11 @@
 	}
 	.headphones:hover .headphones_hover {
 		display: block;
-	}		
+	}
+	.footer {
+		position: fixed;
+		bottom: 0%;
+		left: 50%;
+		margin:0 auto;
+		font-family: "Lucida Console";
+	}
