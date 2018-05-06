@@ -1,8 +1,12 @@
 	.container {
-		position: relative;
+		position: absolute;
 		width: 763.75px;
 		height: 516.75px;
-		margin:0 auto;
+	  	margin: auto;
+  		top: 0; 
+  		left: 0; 
+  		bottom: 0; 
+  		right: 0;
 	}
 	.table {
 		width: 763.75px;
@@ -135,9 +139,15 @@
 		display: block;
 	}
 	.footer {
+		display: flex;
 		position: fixed;
-		bottom: 0%;
-		left: 50%;
-		margin:0 auto;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+		width: 100%;
+		border-top: 1px solid white;
+		justify-content: center;
+		align-items: center;
 		font-family: "Lucida Console";
 	}
